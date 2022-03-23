@@ -73,7 +73,7 @@ const CoinDetails = () => {
    }   
    <div className='select-time'>
     <button value="3h" onClick={handleClick}>3 Hours</button>
-    <button value="24h" onClick={handleClick}  >24 Hours</button>
+    <button value="24h" onClick={handleClick} >24 Hours</button>
     <button value="7d" onClick={handleClick}>7 days</button>
     <button value="30d" onClick={handleClick}>30 days</button>
     <button value="3m" onClick={handleClick}>3 months</button>
